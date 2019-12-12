@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <meta charset="utf-8"> 
+            <meta name="viewport" content="width=device-width initial-scale=1" >
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    </head>
+    <body onload= "playGame()">
+        <div>
+            <h1>Adding Game</h1>
+        
+
+        </div>
+       <hr>
+       <div class="quiz">
+           <div class="quiz-content">
+               <div class="question">
+                   What is the sum of <span class="text-info" id="field1"> 5 </span> and <span class="text-info" id="field2"> 5 </span>?
+               </div>
+          
+      
+       
+
+       <div class="options">
+           <div class="fields  animated zoomIn " >
+               <div class="field-block" id="option1" onclick="checkAnswer(this)">
+                   10
+               </div>
+            </div>
+
+            <div class="fields animated zoomIn" >
+               <div class="field-block" id="option2" onclick="checkAnswer(this)">
+                    10
+                </div>
+            </div>
+
+            <div class="fields animated zoomIn" >
+                <div class="field-block" id="option3" onclick="checkAnswer(this)">
+                        10
+                    </div>
+            </div>
+
+            <div class="fields animated zoomIn">
+                    <div class="field-block" id="option4" onclick="checkAnswer(this)">
+                            10
+                        </div>
+                        </div>
+                    </div>
+
+
+                        <div class="after hide" id="afer"> 
+
+                        </div>
+
+                 <div class="after hide" id="after">       
+                </div>
+
+                <div class="play-again">
+                    <a class="button" onclick="playAgain()">Play Again</a>
+
+                </div>
+
+                
+
+
+       
+
+    </div>
+
+    </div>
+
+
+
+       
+
+        <script src="script.js"></script>
+    </body>
+</html>
